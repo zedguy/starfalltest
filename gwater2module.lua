@@ -1,6 +1,3 @@
-AddCSLuaFile()
-local checkluatype = SF.CheckLuaType
-local registerprivilege = SF.Permissions.registerPrivilege
 
 --- Library for using gwater2
 -- @name gwaterlib
