@@ -1,10 +1,3 @@
-
---- Library for using gwater2
--- @name gwaterlib
--- @class library
--- @libtbl gwater_library
-SF.RegisterLibrary("gwaterlib")
-
 local function main(instance)
 	local gwater_library = instance.Libraries.gwaterlib
 	local vec_meta, vwrap, vunwrap = instance.Types.Vector, instance.Types.Vector.Wrap, instance.Types.Vector.Unwrap
